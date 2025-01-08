@@ -4,8 +4,8 @@ public class BasicFile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String M ="Welcome to GitHub";
-		System.out.println(M);
+		String G ="Welcome to GitHub";
+		System.out.println(G);
 	}
 
 }
