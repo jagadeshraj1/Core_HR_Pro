@@ -6,6 +6,9 @@ public class BasicFile {
 		// TODO Auto-generated method stub
 		String M ="Welcome to GitHub";
 		System.out.println(M);
+		
+		String Y ="Welcome to Testing";
+		System.out.println(Y);
 	}
 
 }
