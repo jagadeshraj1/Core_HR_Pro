@@ -15,6 +15,11 @@ public class PIMPage{
 	private final static By by_back = By.xpath("//input[@class='backbutton']");  
 	private final static By by_empName = By.xpath("//a[contains(text(),'Sai')]");
 	
+	private final static By by_job = By.xpath("//*[@id=\"jobLink\"]/span");
+	private final static By by_editJob = By.xpath("//input[@id='btnEditJob']");	
+	private final static By by_saveJob = By.xpath("//input[@id='btnEditJob']");
+	private final static By by_empStat = By.xpath("//select[@name='cmbType']");
+
 	// Getter/Setter Helping functions
 	public static void clickOnElement() throws Exception {
 		CommanUtils.clickElement(getPim());
@@ -51,5 +56,22 @@ public class PIMPage{
 	public static By getEmpName() throws Exception {
 		return by_empName;
 	}
+	
+	public static By getJob() throws Exception {
+		return by_job;
+	}
+		
+	public static By getEditJob() throws Exception {
+		return by_editJob;
+	}
+	
+	public static By getEmpStat() throws Exception {
+		return by_empStat;
+	}
+	
+	public static By getSaveJob() throws Exception {
+		return by_saveJob;
+	}
+
 
 }
